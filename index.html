@@ -1,0 +1,198 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Dashboard</title>
+  </head>
+  <body>
+    <!-- sidebar-->
+    <div class="wrapper">
+        <div class="sidebar">
+            <div class="hamburger " style="position: absolute;top: 55px;right: -15px;width: 40px;height: 30px;background-color:white;border-radius: 50px;">
+                <div class="inner_hamburger">
+                    <img style="margin-left: 10px;" src="Assets/left_arrow.png">
+                </div>
+
+            </div>
+            <img src="Assets/logo.png" style="padding: 15px;"> <span style="color: white; font-weight: bold;">CRAYON'D</span>
+            <ul>
+                <li><a href="#" class="img"><img src="Assets/speedometer.png"  width="20px"> Dashboard</a></li>
+                <li><a href="#" class="img"><img src="Assets/graph.png" width="20px"> Activity</a></li>
+                <li><a href="#" class="img"><img src="Assets/timer_white.png" width="20px"> Timesheet</a></li>
+                <li><a href="#" class="img"><img src="Assets/icons8-today-96.png" width="20px"> To-Do</a></li>
+                <li><a href="#" class="img"><img src="Assets/bill.png" width="20px"> Invoices</a></li>
+                <li><a href="#" class="img"><img src="Assets/folder.png" width="20px"> Projects</a></li>
+                <li><a href="#" class="img"><img src="Assets/help.png" width="20px"> Help</a></li>
+                <li><a href="#" class="img"><img src="Assets/download.png" width="20px"> Download App</a></li>
+                <img src="Assets/sidebar_overlay.png">
+            </ul>
+            
+            <div class="profile">
+                <li><a href="#"><img src="Assets/notification.png" ></a></li>
+                <li><a href="#"><img src="Assets/settings.png"></a></li>
+                <li><a href="#"><img src="Assets/profile.png"width="25px" ></a></li>
+            </div>
+        </div>
+        <!-- nav bar -->
+        <div class="main_content">
+            <div class="header">
+                <div class="btn-group">
+                    <button class="btn btn-light btn-sm dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Design task
+                    </button>
+                    <form class="form-inline" style="padding-left: 430%;">
+                        <button class="btn btn-outline-primary btn-sm"  type="submit"> ADD PROJECT </button>
+                    </form>
+                </div>
+            </div>
+            <br>
+        <!-- Time sheet table-->
+        <div class="row" style="margin-left:2px;" >
+            <div class="col-8" style="border-bottom: 1px solid  #DCDCDC;">
+                <nav class="navbar navbar-light bg-light justify-content-between">
+                    <a class="navbar-brand">Timesheet</a>
+                    <form class="form-inline" style="padding-left: 55%;">
+                      <button class="btn btn-outline-primary btn-sm"  type="submit">VIEW FULL SHEET</button>
+                    </form>
+                    <img src="Assets/more.png">
+                </nav>
+                <br>
+                <table class="table table-bordered table-striped" style="margin-left: 4px;" >
+                    <thead>
+                      <tr>
+                        <th scope="col">Project</th>
+                        <th scope="col">Date</th>
+                        <th scope="col">Start time</th>
+                        <th scope="col">Stop Time</th>
+                        <th scope="col">Duration</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td scope="row"><button type="button" class="btn btn-outline-primary btn-sm">1</button> Landing page Design</td>
+                        <td>May 21,2019</td>
+                        <td>1:10pm</td>
+                        <td>9:20pm</td>
+                        <td>8:10:37</td>
+                      </tr>
+                      <tr>
+                        <td scope="row"><button type="button" class="btn btn-outline-secondary btn-sm">3</button> Mobile App</td>
+                        <td>May 22,2019</td>
+                        <td>12:00pm</td>
+                        <td>8:00pm</td>
+                        <td>8:00:37</td>
+                      </tr>
+                      <tr>
+                        <td scope="row"><button type="button" class="btn btn-outline-danger btn-sm">5</button> UI/UX </td>
+                        <td>May 23,2019</td>
+                        <td>1:10pm</td>
+                        <td>1:20pm</td>
+                        <td>0:10:37</td>
+                      </tr>
+                    </tbody>
+                </table>
+            </div>
+            <!-- Report table-->
+            <div class="col-4 text-aglin=center" style="border-bottom: 1px solid  #DCDCDC;border-left: 1px solid #DCDCDC;">
+                <nav class="navbar navbar-light bg-light justify-content-between">
+                    <a class="navbar-brand">REPORT</a>
+                </nav>
+                <br>
+                <div class="media border p-3 " id="first">
+                    <img src="Assets/graph.png" class="mr-3 mb-2 img-thumbnail " style="background-color: #5551a5; width: 30px;"> 
+                    <div class="media-body ">
+                        <h6>WEEKLY ACTIVITY <br> 52%</h6>
+                    </div>
+                    <img src="Assets/notification.png">
+                </div>
+                <br>
+                <div class="media border p-3" id="second">
+                    <img src="Assets/timer_blue.png" class="mr-3 mb-2   img-thumbnail bg-light"> 
+                    <div class="media-body ">
+                        <h6>WORKED THIS WEEK <br><p style="color: black;">11:56:33</p></h6>
+                    </div>
+                    <img src="Assets/notification.png">
+                </div>
+                <br>
+                <div class="text-center mb-3" id="third">
+                    <p><img src="Assets/pdf.png"> EXPORTS AS PDF </p>
+                </div>
+            </div>
+            <!-- To-Do list table-->
+            <div class="col-8">
+                <br>
+                <nav class="navbar navbar-light bg-light justify-content-between">
+                    <a class="navbar-brand">To-DO-lists</a>
+                </nav>
+                <br>
+                <div class="inline-block">
+                    <label style="margin-left: 20px;color: #251be9;"><b style="font-size: 20px;font-weight: 800;">20</b><br>May</label>
+                    <div class="col card float-right " style="width:675px;height: 60px;">
+                        <div class="card-body pt-1">
+                            <p>Revamp instagram app<img src="Assets/more.png" style="float: right;padding-top: 10px;"><br>Today</p>
+                            
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <div class="inline-block">
+                    <label style="margin-left: 20px;"><b style="font-size: 20px;font-weight: 800;">20</b><br>May</label>
+                    <div class="col card float-right " style="width:675px;height: 60px;">
+                        <div class="card-body pt-1">
+                            <p>Prototyping<img src="Assets/more.png" style="float: right;padding-top: 10px;"><br>upcoming</p>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <div class="inline-block">
+                    <label style="margin-left: 20px;"><b style="font-size: 20px;font-weight: 800;">20</b><br>May</label>
+                    <div class="col card float-right " style="width:675px;height: 60px;">
+                        <div class="card-body pt-1">
+                            <p>Collect references for new project<img src="Assets/more.png" style="float: right;padding-top: 10px;"><br>upcoming</p>
+                            
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- screenshot table-->
+            <div class="col-4" style=" border-left: 1px solid #DCDCDC;" >
+                <br>
+                <nav class="navbar navbar-light bg-light justify-content-between">
+                    <a class="navbar-brand">Screenshorts</a>
+                </nav>
+                <div style="border-bottom: 1px solid #DCDCDC;padding-bottom: 4px;">
+                    <br>
+                    <img src="Assets/picture.png" style="padding-left: 20px;"> Shot_1_attach_1.png 
+                    <span style="padding-left: 70px; "><button  class="btn btn-primary btn-sm mb-1" type="submit">View</button></span>
+                </div>
+                <div style="border-bottom: 1px solid #DCDCDC;padding-bottom: 5px;">
+                    <br>
+                    <img src="Assets/picture.png" style="padding-left: 20px;"> Shot_1_attach_1.png 
+                    <span style="padding-left: 70px; "><button  class="btn btn-primary btn-sm mb-1" type="submit">View</button></span>
+                </div>
+                <div style="border-bottom: 1px solid #DCDCDC;padding-bottom: 5px;">
+                    <br>
+                    <img src="Assets/video_camera.png" style="padding-left: 22px;"> Screen_record_12.mov 
+                    <span style="padding-left: 59px; "><button  class="btn btn-primary btn-sm mb-1" type="submit">View</button></span>
+                </div>
+                <br>
+                <div class="text-center">
+                    <button  class="btn btn-outline-primary btn btn-block" type="submit"> VIEW ALL</button>
+                </div>
+
+            </div>
+        </div>
+        </div>
+    </div>
+  </body>
+</html>
