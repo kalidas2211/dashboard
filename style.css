@@ -78,6 +78,9 @@
     color: #fff;
     margin-left: 16px;
   }
+  #first:hover{
+    background-color:#000080;
+  }
   #second{
     margin: auto;
     width: 300px;
@@ -87,6 +90,9 @@
     border-radius: 10px;
     color: #9BA3AE;
     margin-left: 16px;
+  }
+  #second:hover{
+    background-color: #E6E6E6;
   }
   #third{
     margin: auto;
