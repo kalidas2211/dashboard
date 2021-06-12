@@ -7,7 +7,8 @@
     text-decoration: none;
   }
   body{
-    background:	white;
+    background:white;
+    
   }
   .wrapper{
     display: flex;
@@ -66,51 +67,42 @@
     background: #fff;
     padding: 20px;
     border-bottom: 1px solid grey;
+    width: 100%;
   }
   /*Report table*/
   #first{
     margin: auto;
-    width: 300px;
-    height: 65px;
+    width: 90%;
+    height: 70px;
     border: 1px solid white;
     background-color: #16108B;
     border-radius: 10px;
     color: #fff;
-    margin-left: 16px;
+    margin-left: 5%;
   }
   #first:hover{
     background-color:#000080;
   }
   #second{
     margin: auto;
-    width: 300px;
-    height: 65px;
+    width: 90%;
+    height: 70px;
     border: 1px solid white;
     background-color: #DBDBDB;
     border-radius: 10px;
     color: #9BA3AE;
-    margin-left: 16px;
+    margin-left: 5%;
   }
   #second:hover{
     background-color: #E6E6E6;
   }
   #third{
     margin: auto;
-    width: 300px;
-    height: 50px;
+    width: 90%;
+    height: 55px;
     border: 1px solid #000080;
     padding: 12px;
     border-radius: 8px;
     color:#000080;
-    margin-left: 16px;
-  }
-    /*To Do lists table*/
-  .lists_1{
-    margin: auto;
-    width: 350px;
-    height: 100px;
-    border: 1px solid gray;
-    padding: 10px;
-    border-radius: 10px;
-    color: white;
+    margin-left: 5%;
   }
