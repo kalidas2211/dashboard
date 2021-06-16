@@ -51,16 +51,16 @@
                       Design task
                     </button>
                 </div>
-                <button class="btn btn-outline-primary btn-sm float-right"  type="submit"> ADD PROJECT </button>
+                <button class="addbtn addbtn_1 float-right"> +ADD PROJECT </button>
             </div>
             <br>
         <!-- Time sheet table-->
         <div class="row" style="margin-left:2px;" >
-            <div class="col-8" style="border-bottom: 1px solid  #DCDCDC;">
+            <div class="col-md-8" style="border-bottom: 1px solid  #DCDCDC;">
                 <nav class="navbar navbar-light bg-light justify-content-between">
                     <a class="navbar-brand">Timesheet</a>
                     <form class="form-inline" style="padding-left: 55%;">
-                      <button class="btn btn-outline-primary btn-sm"  type="submit">VIEW FULL SHEET</button>
+                        <button class="addbtn addbtn_1 float-right">VIEW FULL SHEET</button>
                     </form>
                     <img src="Assets/more.png">
                 </nav>
@@ -101,7 +101,7 @@
                 </table>
             </div>
             <!-- Report table-->
-            <div class="col-sm-4 col-md-4 text-aglin=center" style="border-bottom: 1px solid  #DCDCDC;border-left: 1px solid #DCDCDC;">
+            <div class="col-md-4 text-aglin=center" style="border-bottom: 1px solid  #DCDCDC;border-left: 1px solid #DCDCDC;">
                 <nav class="navbar navbar-light bg-light justify-content-between">
                     <a class="navbar-brand">REPORT</a>
                 </nav>
@@ -109,25 +109,25 @@
                 <div class="media border p-3 " id="first">
                     <img src="Assets/graph.png" class="mr-3 mb-2  img-thumbnail " style="background-color: #5551a5; width: 30px;"> 
                     <div class="media-body">
-                        <h6>WEEKLY ACTIVITY <br> 52%</h6>
+                        <small>WEEKLY ACTIVITY <br>52%</small>
                     </div>
-                    <img src="Assets/profit.png" class="mr-1">
+                    <img src="Assets/profit.png" width="50px" class="mr-0">
                 </div>
                 <br>
                 <div class="media border p-3" id="second">
                     <img src="Assets/timer_blue.png" class="mr-3 mb-2   img-thumbnail bg-light"> 
                     <div class="media-body ">
-                        <h6>WORKED THIS WEEK <br><p style="color: black;">11:56:33</p></h6>
+                        <small>WORKED THIS WEEK <br><p style="color: black;">11:56:33</p></small>
                     </div>
-                    <img src="Assets/loss.png" class="mr-1">
+                    <img src="Assets/loss.png "width="50px" class="mr-0">
                 </div>
                 <br>
                 <div class="text-center mb-3" id="third">
-                    <p><img src="Assets/pdf.png"> EXPORTS AS PDF </p>
+                    <img src="Assets/pdf.png"> EXPORTS AS PDF </p>
                 </div>
             </div>
             <!-- To-Do list table-->
-            <div class="col-8">
+            <div class="col-md-8">
                 <br>
                 <nav class="navbar navbar-light bg-light justify-content-between">
                     <a class="navbar-brand">To-DO-lists</a>
@@ -137,7 +137,7 @@
                     <label style="margin-left: 3%;color: #251be9;"><b style="font-size: 20px;font-weight: 800;">20</b><br>May</label>
                     <div class="col card float-right " style="width:91%;height: 60px;">
                         <div class="card-body pt-1">
-                            <p>Revamp instagram app<img src="Assets/more.png" style="float: right;padding-top: 10px;"><br>Today</p>
+                            <p>Revamp instagram app<img src="Assets/more.png" style="float: right;padding-top: 10px;"><br><small style="color:gray;">Today</small></p>
                             
                         </div>
                     </div>
@@ -147,7 +147,7 @@
                     <label style="margin-left: 3%;"><b style="font-size: 20px;font-weight: 800;">20</b><br>May</label>
                     <div class="col card float-right " style="width:91%;height: 60px;background-color:#F2F2F2;">
                         <div class="card-body pt-1">
-                            <p>Prototyping<img src="Assets/more.png" style="float: right;padding-top: 10px;"><br>upcoming</p>
+                            <p>Prototyping<img src="Assets/more.png" style="float: right;padding-top: 10px;"><br><small style="color:gray;">upcoming</small></p>
                         </div>
                     </div>
                 </div>
@@ -156,37 +156,33 @@
                     <label style="margin-left: 3%;"><b style="font-size: 20px;font-weight: 800;">20</b><br>May</label>
                     <div class="col card float-right " style="width:91%;height: 60px;background-color:#F2F2F2;">
                         <div class="card-body pt-1">
-                            <p>Collect references for new project<img src="Assets/more.png" style="float: right;padding-top: 10px;"><br>upcoming</p>
-                            
+                            <p>Collect references for new project<img src="Assets/more.png" style="float: right;padding-top: 10px;"><br><small style="color:gray;">upcoming</small></p>
                             
                         </div>
                     </div>
                 </div>
             </div>
             <!-- screenshot table-->
-            <div class="col-4" style=" border-left: 1px solid #DCDCDC;" >
+            <div class="col-md-4" style=" border-left: 1px solid #DCDCDC;" >
                 <br>
                 <nav class="navbar navbar-light bg-light justify-content-between">
                     <a class="navbar-brand">Screenshots</a>
                 </nav>
-                <div style="border-bottom: 1px solid #DCDCDC;padding-bottom: 4px; width:auto;">
-                    <br>
-                    <img src="Assets/picture.png" style="padding-left: 20px;"> Shot_1_attach_1.png 
-                    <span style="padding-left: 70px; "><button  class="btn btn-primary btn-sm mb-1" type="submit">View</button></span>
+                <div style="padding-top:30px;">
+                    <ul>
+                        <li><img src="Assets/picture.png" style="padding-left: 20px;">Shot_1_attach_1.png 
+                        <span class="float-lg-right mr-5"><button class="button button1">View</button></span></li>
+                        <hr>
+                        <li><img src="Assets/picture.png" style="padding-left: 20px;"> Shot_1_attach_1.png 
+                            <span class="float-lg-right mr-5"><button class="button button1">View</button></span></li>
+                        <hr>
+                        <li><img src="Assets/video_camera.png" style="padding-left: 22px;"> Screen_record_12.mov 
+                            <span class="float-lg-right mr-5"><button class="button3 button1">Play</button></span></li>
+                        <hr>
+                    </ul>
                 </div>
-                <div style="border-bottom: 1px solid #DCDCDC;padding-bottom: 5px; width:auto;">
-                    <br>
-                    <img src="Assets/picture.png" style="padding-left: 20px;"> Shot_1_attach_1.png 
-                    <span style="padding-left: 70px; "><button  class="btn btn-primary btn-sm mb-1" type="submit">View</button></span>
-                </div>
-                <div style="border-bottom: 1px solid #DCDCDC;padding-bottom: 5px; width:auto;">
-                    <br>
-                    <img src="Assets/video_camera.png" style="padding-left: 22px;"> Screen_record_12.mov 
-                    <span style="padding-left: 58px; "><button  class="btn btn-primary btn-sm mb-1" type="submit">View</button></span>
-                </div>
-                <br>
                 <div class="text-center">
-                    <button  class="btn btn-outline-primary btn btn-block" type="submit"> VIEW ALL</button>
+                    <button class="viewall viewall_1"style="margin-right:20px">VIEW ALL</button>
                 </div>
 
             </div>

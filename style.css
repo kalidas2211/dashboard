@@ -106,3 +106,83 @@
     color:#000080;
     margin-left: 5%;
   }
+  .button {
+    padding: 2px 7px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+    transition-duration: 0.4s;
+  }
+  .button1 {
+    background-color:#D9D9D9;
+    color: #000080;
+    font-weight: 500;
+    border: 1px solid #D9D9D9;
+    border-radius: 3px; 
+  }
+  
+  .button1:hover {
+    background-color: #000080;
+    color: white;
+    border: 1px solid #000080;
+    border-radius: 3px;
+  }
+  /* play button */
+  .button3 {
+    padding: 2px 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+    transition-duration: 0.4s;
+  }
+  /* view all button in screenshort */
+  .viewall {
+    padding: 10px 123px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+    transition-duration: 0.4s;
+  }
+  .viewall_1 {
+    background-color:white;
+    color: #000080;
+    font-weight: 500;
+    font-size: 13px;
+    border: 1px solid #D9D9D9; 
+    border-radius: 5px;
+  }
+  
+  .viewall_1:hover {
+    background-color: #000080;
+    color: white;
+    border: 1px solid #000080;
+    border-radius: 5px;
+  }
+   /* Add project button in screenshort */
+   .addbtn {
+    padding: 6px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+    font-weight:600;
+    transition-duration: 0.4s;
+  }
+  .addbtn_1 {
+    background-color:#D9D9D9;
+    color: #000080;
+    
+    font-size: 13px;
+    border: 1px solid #D9D9D9; 
+    border-radius: 5px;
+  }
+  
+  .addbtn_1:hover {
+    background-color: #000080;
+    color: white;
+    border: 1px solid #000080;
+    border-radius: 5px;
+  }
